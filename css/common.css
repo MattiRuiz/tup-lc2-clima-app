@@ -34,7 +34,9 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
-    background: var(--color-theme);
+    background: var(--color-gradient);
+    border-bottom: var(--color-active) 2px solid;
+    border-radius: 0 0 25px 25px;
 }
 
 nav>ul {
@@ -55,12 +57,14 @@ nav li a{
     font-size: 1em;
     font-weight: bold;
     color: var(--color-active);
+    letter-spacing: .2px;
 }
 
 nav li.current-page a {
     color: var(--color-theme);
     background-color: var(--color-active);
     pointer-events: none;
+    border-radius: 10px 10px 0 0;
 }
 
 main {
@@ -80,12 +84,14 @@ h1 {
 h1>img {
     width: 70px;
     vertical-align: middle;
+    margin-right: 15px;
 }
 
 h2 {
     color: var(--color-theme);
     margin: 16px 0;
     text-align: center;
+    margin-bottom: 25px;
 }
 
 h3 {
@@ -101,11 +107,12 @@ main section {
 footer {
     position: fixed;
     bottom: 0px;
-    background: var(--color-theme);
+    background: var(--color-gradient);
     width: 100%;
     text-align: center;
     padding-top: 10px;
     padding-bottom: 10px;
+    border-top:var(--color-active) 2px solid;
 }
 
 footer p {
@@ -115,6 +122,40 @@ footer p {
 
 main p {
     margin-bottom: 16px;
+}
+
+button {
+    font-size: 12px;
+    padding: 10px;
+    background-color: var(--color-theme);
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    margin: 0 3px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+button:hover {
+    background-color: var(--color-back-active);
+}
+
+label {
+    font-size: 11px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+input:focus-visible {
+    outline: none;
 }
 
 /* Media Query: Estilos a aplicar sólo en pantallas mayores a 400px */

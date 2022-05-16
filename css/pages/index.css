@@ -1,0 +1,23 @@
+.card {
+    text-align: center;
+    margin-top: 25px;
+    box-shadow: 2px 2px 10px 1px rgba(0,0,0,0.4);
+    padding: 10px 20px 0;
+    border-radius: 25px;
+}
+
+.card p {
+    font-size: 12px;
+    font-weight: bolder;
+    margin-bottom: 12px;
+}
+
+select {
+    border-radius: 5px;
+    padding: 0 10px;
+    border-color: #000;
+}
+
+select:focus-visible {
+    outline: none;
+}

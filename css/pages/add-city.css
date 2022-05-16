@@ -1,0 +1,39 @@
+:root {
+    --color-sucess: #28a745;
+    --color-warning: #ffc107;
+    --color-error: #dc3545;
+}
+
+main {
+    text-align: center;
+}
+
+.mensajes {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.mensaje {
+    width: 350px;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 12px;
+    margin: 20px auto 0;
+    padding: 12px 20px;
+}
+
+.mensaje p{
+    margin: 0;
+}
+
+.mensaje.sucess {
+    background-color: var(--color-sucess);
+}
+
+.mensaje.warning {
+    background-color: var(--color-warning);
+}
+
+.mensaje.error {
+    background-color: var(--color-error);
+}

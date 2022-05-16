@@ -9,11 +9,12 @@
 
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/pages/add-city.css">
 </head>
 
 <body>
     <header>
-        <h1><span>Clima App</span></h1>
+        <h1><img src="img/sunny.png" alt=""><span>Clima App</span></h1>
         <nav>
             <ul>
                 <li><a href="index.html">Clima</a></li>
@@ -32,6 +33,17 @@
                 <br>
                 <button>Agregar</button>
             </form>
+        </section>
+        <section class="mensajes">
+            <div class="mensaje sucess">
+                <p>Ciudad agregada con éxito</p>
+            </div>
+            <div class="mensaje warning">
+                <p>La ciudad ingresada ya se encuentra almacenada</p>
+            </div>
+            <div class="mensaje error">
+                <p>Error: La ciudad ingresada no se encuentra en la API o se produjo un error al consultar</p>
+            </div>
         </section>
     </main>
 
