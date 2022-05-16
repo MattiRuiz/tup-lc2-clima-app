@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>Clima App</title>
+    <title>Clima App | Ayuda</title>
 
     <!-- Estilos CSS -->
     <link rel="stylesheet" href="css/common.css">
@@ -39,12 +39,19 @@
                 <label for="email">Email:</label>
                 <input type="email" name="email" id="email">
                 <br>
-                <label for="mensaje">Mensaje</label>
+                <label for="mensaje">Mensaje:</label>
                 <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
                 <br>
-                <button type="reset">Limpiar</button>
-                <button type="submit">Enviar</button>
+                <div>
+                    <button type="reset">Limpiar</button>
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
+        </section>
+        <section class="mensajes">
+            <div class="mensaje error">
+                <p>Ingrese un Email válido</p>
+            </div>
         </section>
     </main>
 

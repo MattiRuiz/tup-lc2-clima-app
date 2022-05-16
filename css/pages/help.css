@@ -1,0 +1,56 @@
+:root {
+    --color-error: #dc3545;
+    --color-theme: #00594c;
+}
+
+p {
+    font-size: 12px;
+}
+
+p a {
+    text-decoration: none;
+    color: var(--color-theme);
+    font-weight: bold;
+}
+
+main div{
+    width: 60%;
+    margin: 0 auto;
+}
+
+main {
+    margin-bottom: 40px;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    border: 1px solid #000;
+    border-radius: 5px;
+    resize: none;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+textarea:focus-visible {
+    outline: none;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form div {
+    display: flex;
+    justify-content: center;
+}
+
+.mensaje.error {
+    background-color: var(--color-error);
+}
+
+.mensaje p {
+    font-size: 11px;
+}

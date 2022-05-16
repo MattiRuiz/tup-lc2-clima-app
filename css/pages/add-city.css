@@ -8,24 +8,6 @@ main {
     text-align: center;
 }
 
-.mensajes {
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-.mensaje {
-    width: 350px;
-    color: #fff;
-    font-size: 11px;
-    border-radius: 12px;
-    margin: 20px auto 0;
-    padding: 12px 20px;
-}
-
-.mensaje p{
-    margin: 0;
-}
-
 .mensaje.sucess {
     background-color: var(--color-sucess);
 }

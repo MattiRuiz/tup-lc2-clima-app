@@ -12,6 +12,7 @@
     --color-back-active: #04957d;
     --color-gradient: linear-gradient(to right, var(--color-theme),
     var(--color-back-active));
+    --color-error: #dc3545;
 }
 
 body {
@@ -156,6 +157,25 @@ input {
 
 input:focus-visible {
     outline: none;
+}
+
+.mensajes {
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.mensaje {
+    width: 350px;
+    color: #fff;
+    font-size: 11px;
+    border-radius: 12px;
+    margin: 20px auto 0;
+    padding: 12px 20px;
+    text-align: center;
+}
+
+.mensaje p{
+    margin: 0;
 }
 
 /* Media Query: Estilos a aplicar sólo en pantallas mayores a 400px */
